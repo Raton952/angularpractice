@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -31,7 +32,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatButtonModule,
     MatSidenavModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
